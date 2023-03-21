@@ -1,0 +1,30 @@
+if [ -z "${ROOTDIR}" ]; then
+    echo 'ERROR ROOTDIR not define'
+    return
+fi
+if [ -z "${PYTHON3}" ]; then
+    echo 'ERROR PYTHON3 not define'
+    return
+fi
+
+# ----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+# ------------------------------- REMOVE CAMB --------------------------------
+# ----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+
+# DHFS Modification Begins (Step 10, 11 of 13)
+cd $ROOTDIR/external_modules/code/CAMB-MAVANS/
+# DHFS Modification End (Step 10, 11 of 13)
+
+rm -rf ./build/
+
+rm -rf ./camb/__pycache__/
+
+rm -f ./camb/camblib.so
+
+rm -rf ./forutils/Releaselib/
+
+$PYTHON3 setup.py clean
+
+cd $ROOTDIR

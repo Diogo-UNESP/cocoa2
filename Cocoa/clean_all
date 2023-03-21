@@ -16,6 +16,9 @@ source $ROOTDIR/installation_scripts/clean_cosmolike
 source $ROOTDIR/installation_scripts/clean_planck
 source $ROOTDIR/installation_scripts/clean_polychord
 source $ROOTDIR/installation_scripts/clean_required
+# DHFS Modification Begins (Step 12 of 13)
+source $ROOTDIR/installation_scripts/clean_cambmavans
+# DHFS Modification End (Step 12 of 13)
 
 deactivate
 

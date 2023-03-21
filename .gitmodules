@@ -1,0 +1,3 @@
+[submodule "Cocoa/external_modules/code/CAMB-MAVANS"]
+	path = Cocoa/external_modules/code/CAMB-MAVANS
+	url = git@github.com:Diogo-UNESP/CAMB-MAVANS.git

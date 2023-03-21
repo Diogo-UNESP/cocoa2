@@ -42,6 +42,10 @@ source $ROOTDIR/installation_scripts/compile_act
 
 source $ROOTDIR/installation_scripts/compile_h0licow
 
+# DHFS Modification Begins (Step 8 of 13)
+source $ROOTDIR/installation_scripts/compile_cambmavans
+# DHFS Modification End (Step 8 of 13)
+
 # ----------------------------------------------------------------------------
 # ----------------------------------------------------------------------------
 # ----------------------- COMPILE EXTERNAL PROJECTS --------------------------
