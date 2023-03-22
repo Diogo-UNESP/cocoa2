@@ -1,1 +1,5 @@
 chains/
+# DHFS: The folder "RnR_reproduction" contains the files .yaml and .sh to reproduce the Rock n Roll paper (1904.01016)
+# but to keep the remote repository organized this folder is not tracked by git. So this folder should be upload
+# to Grid-UNESP and SDumont with scp command. 
+RnR_reproduction
